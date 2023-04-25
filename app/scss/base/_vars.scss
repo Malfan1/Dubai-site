@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&family=Work+Sans&display=swap');
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../../fonts/Gilroy-Regular.ttf');
+    font-weight: 300;
+    font-style: normal;
+}
+
+$prefix: artem- !default;
+$fontFamilyWorkSans: 'Work Sans', sans-serif;
+$fontFamilySpaceGrotesk: 'Space Grotesk', sans-serif;
+$fontFamilyGilroy: 'Gilroy', sans-serif;
+
+$path: '../../../images/';
+
+$white: #FFF;
+$black: #000;
+$bgColor: rgba(39, 39, 39, 1);
+$borderBox: rgba(252, 213, 76, 1);
+$spanYellow: rgba(252, 213, 76, 1);
+
+$colors:(
+    "white": $white,
+    "black": $black,
+    "bgColor": $bgColor,
+    "borderBox": $borderBox,
+    "spanYellow": $spanYellow,
+) !default;

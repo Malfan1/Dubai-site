@@ -1,0 +1,15 @@
+@mixin h2($fw, $fz, $lh){
+    font-family: var(--#{$prefix}font-sans);
+    font-weight: $fw;
+    font-size: $fz;
+    line-height: $lh;
+    color: var(--#{$prefix}color-white);
+}
+
+@mixin h1($fw, $fz, $lh){
+    font-family: var(--#{$prefix}font-space);
+    font-weight: $fw;
+    font-size: $fz;
+    line-height: $lh;
+    color: var(--#{$prefix}color-white);
+}

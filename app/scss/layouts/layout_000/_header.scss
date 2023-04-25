@@ -1,0 +1,17 @@
+.header{
+    padding-top: 16px;
+    margin-bottom: 19px;
+    display: flex;
+
+    &__logo{
+        margin-right: auto;
+    }
+
+    &__burger{
+        display: flex;
+
+        &-img{
+            margin: auto;
+        }
+    }
+}

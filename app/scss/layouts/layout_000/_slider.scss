@@ -1,0 +1,44 @@
+.slider{
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+    &__foto{
+        width: 100%;
+        height: 322px;
+        margin: auto;
+
+        &-first{
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    &__box{
+        position: absolute;
+        padding: 14px 0 0 15px;
+        top: 23px;
+        left: 26px;
+        width: 63px;
+        height: 195px;
+        border: 4px solid var(--#{$prefix}color-border-box);
+        border-right: transparent;
+    }
+    
+    &__h2{
+        @include h2(400, 10px, 12px);
+        text-transform: uppercase;
+        white-space: nowrap;
+    }
+
+    &__h1{
+        @include h1(700, 30px, 38px);
+        width: 231px;
+        white-space: wrap;
+        text-transform: capitalize;
+
+        &_yellow{
+            color: var(--#{$prefix}color-span-yellow);
+        }
+    }
+}

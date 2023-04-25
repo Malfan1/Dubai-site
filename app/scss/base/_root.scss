@@ -1,0 +1,10 @@
+:root{
+    --#{$prefix}font-sans: #{$fontFamilyWorkSans};
+    --#{$prefix}font-gilroy: #{$fontFamilyGilroy};
+    --#{$prefix}font-space: #{$fontFamilySpaceGrotesk};
+    --#{$prefix}color-white: #{$white};
+    --#{$prefix}color-black: #{$black};
+    --#{$prefix}color-bg: #{$bgColor};
+    --#{$prefix}color-border-box: #{$borderBox};
+    --#{$prefix}color-span-yellow: #{$spanYellow};
+}
