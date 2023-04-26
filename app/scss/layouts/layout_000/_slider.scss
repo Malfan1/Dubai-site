@@ -36,9 +36,28 @@
         width: 231px;
         white-space: wrap;
         text-transform: capitalize;
+        margin-bottom: 61px;
 
         &_yellow{
             color: var(--#{$prefix}color-span-yellow);
+            font-weight: 700;
+        }
+    }
+
+    &__p{
+        position: relative;
+        white-space: nowrap;
+        font-weight: 600;
+        font-size: 13px;
+        color: var(--#{$prefix}color-white);
+
+        &::after{
+            content: '';
+            position: absolute;
+            margin-left: 5px;
+            background: url('#{$path}arr.svg') no-repeat;
+            width: 11px;
+            height: 17px;
         }
     }
 }
