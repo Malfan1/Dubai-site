@@ -13,3 +13,27 @@
     line-height: $lh;
     color: var(--#{$prefix}color-white);
 }
+
+@mixin prev-next(){
+    font-family: 'Gilroy';
+    color: var(--#{$prefix}color-white);
+    font-weight: 700;
+    font-size: 10px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+
+@mixin forNumbersSlider(){
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: var(--#{$prefix}color-white);
+}
+
+@mixin forWordsSlider(){
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 12px;
+    color: var(--#{$prefix}color-white);
+}
